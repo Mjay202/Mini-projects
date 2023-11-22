@@ -10,6 +10,7 @@
 
     <div class="clock">
         <div class="clock-UI">
+            <div class="hand"></div>
 
         </div>
     </div>
@@ -48,14 +49,20 @@
 
         }
 
-        .clock-clock {
+        .clock-UI {
             position: relative;
             width: 100%; 
             height: 100%;
-            background: black;
-            position: relative;
-            top: 50%;
+            transform: translateY(-3px);
             
+        }
+
+        .hand {
+            width: 50%;
+            height: 6px;
+            background: black;
+            position: absolute;
+            top: 50%;
         }
 
 
