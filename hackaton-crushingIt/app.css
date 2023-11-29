@@ -15,3 +15,22 @@ nav {
     gap: 7.517px;
     flex: 1 0 0;
 }
+
+.logo-assets img {
+    width: 104.868px;
+    height: 30px;
+}
+
+nav input[type=search] {
+    display: flex;
+    width: 480px;
+    height: 32px;
+    padding: 8px;
+    align-items: center;
+    gap: 6px;
+    border-radius: 8px;
+    border: 1px solid var(--stroke-s-200, #616161);
+    background: var(--grey-g-200, #303030);
+    color: var(--grey-g-100, #B5B5B5);
+    
+}
