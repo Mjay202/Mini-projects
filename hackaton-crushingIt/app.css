@@ -32,5 +32,17 @@ nav input[type=search] {
     border: 1px solid var(--stroke-s-200, #616161);
     background: var(--grey-g-200, #303030);
     color: var(--grey-g-100, #B5B5B5);
+    color: var(--grey-g-100, #B5B5B5);
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 18.2px */
     
+}
+
+nav svg{
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
 }
